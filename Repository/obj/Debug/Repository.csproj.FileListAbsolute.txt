@@ -1,0 +1,11 @@
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\bin\Debug\Repository.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\bin\Debug\Repository.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\bin\Debug\Contracts.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\bin\Debug\SqlFaultTolerantHandler.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\bin\Debug\Utilities.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\bin\Debug\Contracts.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\bin\Debug\SqlFaultTolerantHandler.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\bin\Debug\Utilities.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\obj\Debug\Repository.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Repository\obj\Debug\Repository.pdb

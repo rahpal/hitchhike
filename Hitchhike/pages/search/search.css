@@ -1,0 +1,57 @@
+﻿.search section[role=main] {
+    margin-left: 120px;
+}
+
+.searchContent {
+    display: -ms-grid;
+    -ms-grid-rows: 40px 530px;
+    -ms-grid-columns: 350px 40px 1fr 80px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+    .searchContent .column {
+        -ms-grid-row: 2;
+        border-top: 5px solid;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .searchContent .searchColumn1 {
+        -ms-grid-column: 1;
+        background-color: #3ec303;
+        background-color: rgba(62,195,3,0.5);
+        border-top-color: rgb(62,195,3);
+        padding: 10px 0 0 10px;
+    }
+
+    .searchContent .searchColumn2 {
+        -ms-grid-column: 3;
+        padding: 10px 0 0 10px;
+    }
+
+.search-listitem-container {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgba(11,153,188, 0.5);
+}
+
+#search-listview {
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.search-plan-from {
+    width: 200px;
+    height: 30px;
+    background-color: #000000;
+    padding: 5px;
+}
+
+.search-table {
+    width: 800px;
+}
+

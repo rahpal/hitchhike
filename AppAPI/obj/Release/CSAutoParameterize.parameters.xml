@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="HitchHikeConnectionString-Web.config Connection String" description="HitchHikeConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:AnuragD.redmond.corp.microsoft.com,49172;Initial Catalog=HitchHike;Integrated Security=SSPI;User ID=sa;Password=Pass@123;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\App\ Development\\Projects\\Hitchhike\\Main\\Source\\Hitchhike\\AppAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HitchHikeConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

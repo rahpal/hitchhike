@@ -1,0 +1,13 @@
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bin\Debug\resources.pri
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bin\Debug\AppxManifest.xml
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bin\Debug\Hitchhike.build.appxrecipe
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bld\Debug\priconfig.xml
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bld\Debug\layout.resfiles
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bld\Debug\resources.resfiles
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bld\Debug\pri.resfiles
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bld\Debug\LanguageQualifiers.txt
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bld\Debug\ProjectArchitectures.txt
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bld\Debug\priconfig.xml.intermediate
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bld\Debug\layout.resfiles.intermediate
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bld\Debug\resources.resfiles.intermediate
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bld\Debug\pri.resfiles.intermediate

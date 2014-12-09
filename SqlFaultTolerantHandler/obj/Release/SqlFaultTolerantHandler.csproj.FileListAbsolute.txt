@@ -1,0 +1,4 @@
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\SqlFaultTolerantHandler\bin\Release\SqlFaultTolerantHandler.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\SqlFaultTolerantHandler\bin\Release\SqlFaultTolerantHandler.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\SqlFaultTolerantHandler\obj\Release\SqlFaultTolerantHandler.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\SqlFaultTolerantHandler\obj\Release\SqlFaultTolerantHandler.pdb

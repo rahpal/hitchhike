@@ -1,0 +1,33 @@
+﻿html, body, .login {
+	height: 100%;
+}
+
+.login-top-wrapper{
+	width: 100%;
+	height: inherit;
+}
+
+.login-left-pane{
+	width: 70%;
+	background-color: blue;
+	float: left;
+	height: 100%;
+	color: #FFFFFF;
+}
+
+.login-right-pane{
+	width: 30%;
+	background-color: wheat;
+	float: right;
+	height: inherit;
+	color: #000000;
+}
+
+.login-right-pane-form-container{
+	margin: 20px;
+}
+
+.login-remember{
+	font-size: 11pt;
+	vertical-align: bottom;
+}

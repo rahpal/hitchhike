@@ -1,0 +1,9 @@
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\HitchHikeDB\HitchHike\bin\Debug\HitchHike.dacpac
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\HitchHikeDB\HitchHike\bin\Debug\HitchHike.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\HitchHikeDB\HitchHike\bin\Debug\HitchHike.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\HitchHikeDB\HitchHike\obj\Debug\Model.xml
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\HitchHikeDB\HitchHike\obj\Debug\refactor.xml
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\HitchHikeDB\HitchHike\obj\Debug\postdeploy.sql
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\HitchHikeDB\HitchHike\obj\Debug\predeploy.sql
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\HitchHikeDB\HitchHike\obj\Debug\HitchHike.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\HitchHikeDB\HitchHike\obj\Debug\HitchHike.pdb

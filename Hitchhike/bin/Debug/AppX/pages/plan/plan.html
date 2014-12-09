@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>plan</title>
+
+    <link href="plan.css" rel="stylesheet" />
+    <script src="plan.js"></script>
+</head>
+<body>
+    <div class="fragment plan">
+
+        <!-- Header for the app -->
+        <section id="app-header"></section>
+        <!-- Header end-->
+
+        <!-- Body of the app -->
+        <section aria-label="Main content" role="main" class="content">
+            <progress class="plan-progressbar win-medium" data-bind="visible: showProgressBar"></progress>
+            <!-- Simple template for the ListView instantiation  -->
+            <div class="no-data-available" data-bind="visible: hidePageContent">
+                <span>No Records Found!</span>
+            </div>
+            <div class="data-available" data-bind="visible: !hidePageContent()">
+                <div class="plan-travel-listitem-template" data-win-control="WinJS.Binding.Template">
+                    <div class="plan-listitem-container">
+                        <a href="javascript:void(0)" class="cursorpointer fright" id="plan-close" data-win-bind="onclick: deleteListItem;">
+                            <img src="../../images/close24x24.png" />
+                        </a>
+                        <label data-win-bind="innerText: Source"></label>
+                        <label>--------> </label>
+                        <label data-win-bind="innerText: Destination"></label>
+                        <br />
+                        <label data-win-bind="innerText: TravelDate"></label> <span>|</span> <label data-win-bind="innerText: TravelTime"></label>
+                        <br />
+                        <label data-win-bind="innerText: TotalFare"></label>
+                    </div>
+                </div>
+
+                <!-- The declarative markup necesary for ListView instantiation -->
+                <!-- Call WinJS.UI.processAll() in your initialization code -->
+                <div id="plan-listview"
+                    data-win-control="WinJS.UI.ListView"
+                    data-win-options="{ 
+                    itemTemplate : select('.plan-travel-listitem-template'),
+                    selectionMode: 'none',
+                    tapBehavior: 'none',
+                    swipeBehavior: 'none',
+                    layout: { type: WinJS.UI.GridLayout } }">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

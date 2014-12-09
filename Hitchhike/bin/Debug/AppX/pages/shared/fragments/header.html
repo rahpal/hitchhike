@@ -1,0 +1,31 @@
+﻿<header aria-label="Header" role="banner">
+    <!-- Back button -->
+    <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+
+    <!-- Title of the app -->
+    <h1 class="titlearea win-type-ellipsis">
+        <span class="pagetitle">HitchHike</span>
+    </h1>
+
+    <!-- Profile section of app -->
+    <section class="header-profile">
+
+        <!-- Profile details -->
+        <div class="header-profile-details">
+            <h3 id="header-name"></h3>
+            <h3 id="header-emailAddress"></h3>
+        </div>
+
+        <!-- Profile picture -->
+        <div id="header-gender-icon" class="header-profile-picture"></div>
+
+        <!-- Button to update profile or to sign out from the app -->
+        <div id="header-settings-button" class="header-update-profile cursorpointer"></div>
+        <!-- Respond menu. -->
+        <div class="header-flyout" id="header-flyout-menu" data-win-control="WinJS.UI.Menu">
+            <button data-win-control="WinJS.UI.MenuCommand" data-win-options="{ id:'header-menu-profile', label:'Profile', disabled: true }"></button>
+            <button data-win-control="WinJS.UI.MenuCommand" data-win-options="{ id:'header-menu-logout', label:'Log out' }"></button>
+        </div>
+    </section>
+</header>
+

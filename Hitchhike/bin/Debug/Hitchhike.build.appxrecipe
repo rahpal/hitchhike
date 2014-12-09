@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>INDIA-PC</Machine>
+    <WindowsUser>drapal</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\css\app.css">
+      <PackagePath>css\app.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\css\header.css">
+      <PackagePath>css\header.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\css\html.css">
+      <PackagePath>css\html.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\css\jquery-ui.css">
+      <PackagePath>css\jquery-ui.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\css\jquery-ui.min.css">
+      <PackagePath>css\jquery-ui.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\css\jquery-ui.structure.css">
+      <PackagePath>css\jquery-ui.structure.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\css\jquery-ui.structure.min.css">
+      <PackagePath>css\jquery-ui.structure.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\login\login.css">
+      <PackagePath>pages\login\login.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\plan\plan.css">
+      <PackagePath>pages\plan\plan.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\search\search.css">
+      <PackagePath>pages\search\search.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\signup\signup.css">
+      <PackagePath>pages\signup\signup.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\test\test.css">
+      <PackagePath>pages\test\test.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>fonts\glyphicons-halflings-regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>fonts\glyphicons-halflings-regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>fonts\glyphicons-halflings-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>fonts\glyphicons-halflings-regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\bg-home-large.jpg">
+      <PackagePath>images\bg-home-large.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\bg-home-small.jpg">
+      <PackagePath>images\bg-home-small.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\default-profile-picture.jpg">
+      <PackagePath>images\default-profile-picture.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\icons.jpg">
+      <PackagePath>images\icons.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\close24x24.png">
+      <PackagePath>images\close24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\collapse.png">
+      <PackagePath>images\collapse.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\expand.png">
+      <PackagePath>images\expand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\notifications24x24.png">
+      <PackagePath>images\notifications24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\notifications36x36.png">
+      <PackagePath>images\notifications36x36.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\notifications64x64.png">
+      <PackagePath>images\notifications64x64.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\plan64x64.png">
+      <PackagePath>images\plan64x64.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\search24x24.png">
+      <PackagePath>images\search24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\search36x36.png">
+      <PackagePath>images\search36x36.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\search64x64.png">
+      <PackagePath>images\search64x64.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\submit32x32.png">
+      <PackagePath>images\submit32x32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\thumbs_up32x32.png">
+      <PackagePath>images\thumbs_up32x32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\thumbs_up26x26.png">
+      <PackagePath>images\thumbs_up26x26.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\images\thumbs_up36x36.png">
+      <PackagePath>images\thumbs_up36x36.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\js\api\home.js">
+      <PackagePath>js\api\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\js\api\plan.js">
+      <PackagePath>js\api\plan.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\js\api\search.js">
+      <PackagePath>js\api\search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\js\auth0.js">
+      <PackagePath>js\auth0.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\js\api\api-base.js">
+      <PackagePath>js\api\api-base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\js\api\login.js">
+      <PackagePath>js\api\login.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\js\pagecomposer.js">
+      <PackagePath>js\pagecomposer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\login\login.js">
+      <PackagePath>pages\login\login.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\plan\plan.js">
+      <PackagePath>pages\plan\plan.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\search\search.js">
+      <PackagePath>pages\search\search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\shared\modules\animation.js">
+      <PackagePath>pages\shared\modules\animation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\shared\modules\header.js">
+      <PackagePath>pages\shared\modules\header.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\signup\signup.js">
+      <PackagePath>pages\signup\signup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\test\test.js">
+      <PackagePath>pages\test\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\bootstrap.js">
+      <PackagePath>Scripts\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\bootstrap.min.js">
+      <PackagePath>Scripts\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\jquery-2.1.1.intellisense.js">
+      <PackagePath>Scripts\jquery-2.1.1.intellisense.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\jquery-2.1.1.js">
+      <PackagePath>Scripts\jquery-2.1.1.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\jquery-2.1.1.min.js">
+      <PackagePath>Scripts\jquery-2.1.1.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\jquery-ui.js">
+      <PackagePath>Scripts\jquery-ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\jquery-ui.min.js">
+      <PackagePath>Scripts\jquery-ui.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\knockout-3.1.0.debug.js">
+      <PackagePath>Scripts\knockout-3.1.0.debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\knockout-3.1.0.js">
+      <PackagePath>Scripts\knockout-3.1.0.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\knockout.validation.debug.js">
+      <PackagePath>Scripts\knockout.validation.debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\knockout.validation.js">
+      <PackagePath>Scripts\knockout.validation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\r.js">
+      <PackagePath>Scripts\r.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\require.js">
+      <PackagePath>Scripts\require.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\text.js">
+      <PackagePath>Scripts\text.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\packages.config">
+      <PackagePath>packages.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\login\login.html">
+      <PackagePath>pages\login\login.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\plan\plan.html">
+      <PackagePath>pages\plan\plan.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\search\search.html">
+      <PackagePath>pages\search\search.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\shared\fragments\header.html">
+      <PackagePath>pages\shared\fragments\header.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\signup\signup.html">
+      <PackagePath>pages\signup\signup.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\pages\test\test.html">
+      <PackagePath>pages\test\test.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\Scripts\jquery-2.1.1.min.map">
+      <PackagePath>Scripts\jquery-2.1.1.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Hitchhike\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

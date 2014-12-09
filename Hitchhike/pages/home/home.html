@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="/pages/home/home.js"></script>
+    <script src="../../js/pagecomposer.js"></script>
+
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment homepage">
+
+        <!-- Header for the app -->
+        <section id="app-header"></section>
+        <!-- Header end-->
+
+        <!-- Body of the app -->
+        <section aria-label="Main content" role="main" class="content">
+
+            <!-- Plan your travel section -->
+            <h2 class="header-column1">Plan your travel</h2>
+            <section class="column column1">
+                <form role="form" data-bind="with: planFormData">
+                    <label class="fullWidth">From <span class="required">*</span></label>
+                    <input type="text" data-bind="value: from, valueUpdate: 'afterkeydown'" />
+                    <label class="fullWidth">To <span class="required">*</span></label>
+                    <input type="text" data-bind="value: to, valueUpdate: 'afterkeydown'" />
+                    <label class="fullWidth">Date of Journey <span class="required">*</span></label>
+                    <div id="plan-datepicker" data-win-control="WinJS.UI.DatePicker"></div>
+                    <label class="fullWidth">Time of Departure <span class="required">*</span></label>
+                    <div id="plan-timepicker" data-win-control="WinJS.UI.TimePicker" data-win-options="{ clock: '12HourClock' }"></div>
+                    <label class="fullWidth">Vehicle type <span class="required">*</span></label>
+                    <select data-bind="
+                                options: vehicleType.source,
+                                optionsText: 'Name',
+                                value: vehicleType.selectedOption,
+                                optionsCaption: 'Select'">
+                    </select>
+                    <!--<span class="validationError" data-bind="validationMessage: vehicleType.selectedOption"></span>-->
+                    <label class="fullWidth">Fare <span class="required">*</span></label>
+                    <input type="text" data-bind="value: fare, valueUpdate:'afterkeydown'" />
+                    <label class="fullWidth">Capacity <span class="required">*</span></label>
+                    <input type="text" data-bind="value: capacity, valueUpdate: 'afterkeydown'" /><br />
+                    <label class="fullWidth">Description</label>
+                    <textarea rows="3" data-bind="value: description"></textarea>
+                    <button type="button" data-bind="click: $parent.submitPlanFormData">Create</button>
+                </form>
+            </section>
+            <!-- Plan travel section end -->
+
+            <!-- Search for travel section -->
+            <h2 class="header-column2">Search</h2>
+            <section class="column column2">
+                <form role="form" data-bind="with: searchFormData">
+                    <label class="fullWidth">From <span class="required">*</span></label>
+                    <input type="text" data-bind="value: from, valueUpdate: 'afterkeydown'" />
+                    <label class="fullWidth">To <span class="required">*</span></label>
+                    <input type="text" data-bind="value: to, valueUpdate: 'afterkeydown'" />
+                    <label class="fullWidth">Date of Journey <span class="required">*</span></label>
+                    <div id="search-datepicker" data-win-control="WinJS.UI.DatePicker"></div>
+                    <button type="button" data-bind="click: $parent.submitSearchFormData">Search</button>
+                </form>
+            </section>
+            <!-- Search for travel section end -->
+
+            <!-- Notifications section -->
+            <h2 class="header-column3">Notifications</h2>
+            <section class="column column3">
+                <!-- Notification header -->
+                <ul class="homepage-notification-tabs">
+                    <li class="tab1" data-bind="
+                                        css: { active: activeNotificationTab() === 1 },
+                                        click: getPlannedNotifications.bind($data, 1)">Planned</li>
+                    <li class="tab2" data-bind="
+                                        css: { active: activeNotificationTab() === 2 },
+                                        click: getSearchedNotifications.bind($data, 2)">Searched</li>
+                </ul>
+                <!-- Notification header end -->
+
+                <!-- Notifications -->
+                <div class="homepage-notifications">
+                    <!-- ko if: activeNotificationTab() === 1 -->
+                    <div>
+                        Planned notification tab
+                    </div>
+                    <!-- /ko -->
+
+                    <!-- ko if: activeNotificationTab() === 2 -->
+                    <div>
+                        Searched notification tab
+                    </div>
+                    <!-- /ko -->
+                </div>
+                <!-- Notifications end -->
+            </section>
+            <!-- Notifications section end -->
+
+            <!-- Tiles section -->
+            <section id="home-plan-details-" class="column4 home-tiles">
+                <!-- ko foreach: homeTiles -->
+                <div class="tile cursorpointer"
+                    data-bind="click: $parent.onTileClick, attr:{ id: hub.id }">
+                    <header class="tile-header win-type-ellipsis"
+                        data-bind="
+                                text: hub.title,
+                                attr: {title: hub.title }">
+                    </header>
+                    <section class="tile-content" data-bind="foreach: hub.contents">
+                        <!-- ko ifnot: $parent.showTileLoader -->
+                        <span class="tile-data" data-bind="text: value"></span>
+                        <!-- /ko -->
+                        <!-- ko if: $parent.showTileLoader -->
+                        <progress class="tile-loader win-ring win-medium"></progress>
+                        <!-- /ko -->
+                    </section>
+                </div>
+                <!-- /ko -->
+            </section>
+            <!-- Tiles section end -->
+
+            <!-- Right padding -->
+            <section class="column5"></section>
+            <!-- Right padding end -->
+        </section>
+        <!-- Body end -->
+
+        <!-- Footer to keep some space from bottom -->
+        <!--<footer></footer>-->
+        <!-- Footer end -->
+
+    </div>
+</body>
+</html>

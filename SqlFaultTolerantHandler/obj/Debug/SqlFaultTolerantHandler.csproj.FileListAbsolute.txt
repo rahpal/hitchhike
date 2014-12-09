@@ -1,0 +1,5 @@
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\SqlFaultTolerantHandler\bin\Debug\SqlFaultTolerantHandler.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\SqlFaultTolerantHandler\bin\Debug\SqlFaultTolerantHandler.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\SqlFaultTolerantHandler\obj\Debug\SqlFaultTolerantHandler.csprojResolveAssemblyReference.cache
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\SqlFaultTolerantHandler\obj\Debug\SqlFaultTolerantHandler.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\SqlFaultTolerantHandler\obj\Debug\SqlFaultTolerantHandler.pdb

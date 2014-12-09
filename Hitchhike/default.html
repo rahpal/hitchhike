@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HitchHike</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <script src="Scripts/knockout-3.1.0.js"></script>
+    <script src="Scripts/knockout.validation.js"></script>
+
+    <!-- Hitchhike references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/css/app.css" rel="stylesheet" />
+    <link href="/css/html.css" rel="stylesheet" />
+    <link href="/css/header.css" rel="stylesheet" />
+    <link href="/css/jquery-ui.css" rel="stylesheet" />
+    <link href="/css/jquery-ui.structure.css" rel="stylesheet" />
+
+    <script src="/js/default.js"></script>
+    <script src="/js/navigator.js"></script>
+
+    <script src="js/auth0.js"></script>
+
+    <!-- Load RequireJS -->
+    <script data-main="js/main" src="Scripts/require.js"></script>
+
+</head>
+<body class="bg-Theme">
+    <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/login/login.html'}"></div>
+    <!--<div id="appbar" data-win-control="WinJS.UI.AppBar">
+                <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmd', label:'Command', icon:'placeholder'}" type="button"></button>
+            </div>-->
+    <script src="Scripts/jquery-2.1.1.js"></script>
+</body>
+</html>

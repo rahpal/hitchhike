@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>signup</title>
+
+    <!-- WinJS references -->
+    <link href="signup.css" rel="stylesheet" />
+    <script src="signup.js"></script>
+</head>
+<body>
+    <section class="login">
+        <div class="login-top-wrapper">
+            <div class="login-left-pane">
+            </div>
+            <div class="login-right-pane">
+                <div class="login-right-pane-form-container">
+                    <header aria-label="Header content" role="banner">
+                        <button class="win-backbutton signup-backbutton" aria-label="Back" disabled type="button"></button>
+                        <h1 class="titlearea win-type-ellipsis signup-headertext">
+                            <span class="pagetitle">Sign Up</span>
+                        </h1>
+                    </header>
+                    <form class="signup-form" data-bind="with: signupFormData">
+                        <p>
+                            <label>Username</label><br />
+                            <input type="text"
+                                placeholder="Enter your Username"
+                                data-bind="value: username, valueUpdate: 'afterkeydown'" />
+                            <br />
+                            <span class="validationError" data-bind="validationMessage: username"></span>
+                            <label data-bind="visible: $parent.showAvailProgress" class="progressRingText"><progress class="win-ring withText"></progress>Checking Availability...</label>
+                            <span class="failuremessage" data-bind="text: 'Username is already in use.', visible: $parent.usernameAcquired"></span>
+                        </p>
+                        <p>
+                            <label>Firstname</label><br />
+                            <input type="text"
+                                placeholder="Enter your Firstname"
+                                data-bind="value: firstname, valueUpdate: 'afterkeydown'" />
+                            <br />
+                            <span class="validationError" data-bind="validationMessage: firstname"></span>
+                        </p>
+                        <p>
+                            <label>Lastname</label><br />
+                            <input type="text"
+                                placeholder="Enter your Lastname"
+                                data-bind="value: lastname, valueUpdate: 'afterkeydown'" />
+                            <br />
+                            <span class="validationError" data-bind="validationMessage: lastname"></span>
+                        </p>
+                        <p>
+                            <label>Password</label><br />
+                            <input type="password"
+                                placeholder="Enter your Password"
+                                data-bind="value: password, valueUpdate: 'afterkeydown'" />
+                            <br />
+                            <span class="validationError" data-bind="validationMessage: password"></span>
+                        </p>
+                        <p>
+                            <label>Confirm Password</label><br />
+                            <input type="password"
+                                placeholder="Enter your Password Again"
+                                data-bind="value: confirmPassword, valueUpdate: 'afterkeydown'" />
+                            <br />
+                            <span class="validationError" data-bind="validationMessage: confirmPassword"></span>
+                            <span class="failuremessage" data-bind="text: 'Passwords not matched.', visible: $parent.matchPassword"></span>
+                        </p>
+                        <p>
+                            <label>Email Address</label><br />
+                            <input type="email"
+                                placeholder="Enter your Email Alias"
+                                data-bind="value: emailAddress, valueUpdate: 'afterkeydown'" />
+                            <br />
+                            <span class="validationError" data-bind="validationMessage: emailAddress"></span>
+                        </p>
+                        <p>
+                            <label>Contact Number</label><br />
+                            <input type="email"
+                                placeholder="Enter your Contact Number"
+                                data-bind="value: contactNumber, valueUpdate: 'afterkeydown'" />
+                            <br />
+                            <span class="validationError" data-bind="validationMessage: contactNumber"></span>
+                        </p>
+                        <p>
+                            <label>Gender</label>
+                            <input id="signup-Mmargin" type="radio" name="group"
+                                data-bind="value: 'M', checked: gender" />
+                            <span>Male</span>
+                            <input id="signup-Fmargin" type="radio" name="group"
+                                data-bind="value: 'F', checked: gender" />
+                            <span>Female</span>
+                        </p>
+                        <input id="signup" type="submit" name="signup" value="Sign up" data-bind="click: $parent.submitFormData">
+                        <br/>
+                        <br/>
+                        <label data-bind="visible: $parent.showSubmitProgress" class="progressRingText">
+                            <progress class="win-ring withText"></progress>
+                            Signing Up...
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+</body>
+</html>

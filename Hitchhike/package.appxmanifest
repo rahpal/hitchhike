@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity
+    Name="1a49f7b5-dfc0-4401-9c5f-c2f9fac765a8"
+    Version="1.0.0.0"
+    Publisher="CN=v-rahpal" />
+
+  <Properties>
+    <DisplayName>Hitchhike</DisplayName>
+    <PublisherDisplayName>v-rahpal</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+  <Applications>
+    <Application 
+      Id="App"
+      StartPage="default.html">
+
+      <VisualElements
+        DisplayName="Hitchhike"
+        Logo="images\logo.png"
+        SmallLogo="images\smalllogo.png"
+        Description="Hitchhike"
+        ForegroundText="light"
+        BackgroundColor="#464646">
+
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="images\splashscreen.png" />
+
+      </VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+
+</Package>

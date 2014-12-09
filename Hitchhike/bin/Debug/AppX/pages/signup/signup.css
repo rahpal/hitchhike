@@ -1,0 +1,53 @@
+﻿.login-right-pane-form-container {
+    float: left;
+	margin: 20px;
+	padding-bottom: 50px;
+}
+
+.signup-backtologin {
+    float: left;
+}
+
+.signup-form, .signup-headertext {
+    margin-left: 60px;
+}
+
+.signup-backbutton {
+    float: left;
+    margin-top: 20px;
+}
+
+html, body, .login {
+    height: 100%;
+}
+
+.login-top-wrapper {
+    width: 100%;
+    height: inherit;
+}
+
+.login-left-pane {
+    width: 70%;
+    background-color: blue;
+    float: left;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.login-right-pane {
+    width: 30%;
+    background-color: wheat;
+    float: right;
+    height: inherit;
+    overflow-y: auto;
+    color: #000000;
+}
+
+.login-remember {
+    font-size: 11pt;
+    vertical-align: bottom;
+}
+
+#signup-Fmargin, #signup-Mmargin {
+    margin-left: 25px;
+}

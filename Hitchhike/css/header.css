@@ -1,0 +1,63 @@
+﻿
+
+.fragment header[role=banner] .win-backbutton {
+    -ms-grid-column: 2;
+    margin-top: 59px;
+}
+
+.fragment header[role=banner] .titlearea {
+    -ms-grid-column: 3;
+    margin-top: 37px;
+}
+
+    .fragment header[role=banner] .titlearea .pagetitle {
+        width: calc(100% - 20px);
+    }
+
+.fragment .header-profile {
+    -ms-grid-column: 4;
+    margin-top: 49px;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 50px 10px 43px;
+    -ms-grid-rows: 1fr;
+}
+
+    .fragment .header-profile .header-profile-details {
+        -ms-grid-column: 1;
+        padding-right: 10px;
+        text-align: right;
+    }
+
+    .fragment .header-profile .header-profile-picture {
+        -ms-grid-column: 2;
+        text-align: right;
+        height: 50px;
+        width: 50px;
+    }
+
+    .fragment .header-profile .header-update-profile {
+        -ms-grid-column: 4;
+        height: 43px;
+        width: 43px;
+        background: url("/images/icons.jpg") 678px 1030px;
+        -ms-border-radius: 21.5px;
+        border-radius: 21.5px;
+    }
+
+    .fragment .header-profile .header-profile-picture-male {
+        background: url("/images/default-profile-picture.jpg") 0 0;
+    }
+
+    .fragment .header-profile .header-profile-picture-female {
+        background: url("/images/default-profile-picture.jpg") -50px 0;
+    }
+
+#header-settings-button {
+    margin-top: 4px;
+}
+
+.header-flyout {
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 39px;
+}

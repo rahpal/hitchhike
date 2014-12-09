@@ -1,0 +1,4 @@
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Utilities\bin\Debug\Utilities.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Utilities\bin\Debug\Utilities.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Utilities\obj\Debug\Utilities.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Utilities\obj\Debug\Utilities.pdb

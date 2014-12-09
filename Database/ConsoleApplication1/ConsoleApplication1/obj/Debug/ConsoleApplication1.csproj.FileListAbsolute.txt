@@ -1,0 +1,6 @@
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

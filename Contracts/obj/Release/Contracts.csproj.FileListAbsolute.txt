@@ -1,0 +1,4 @@
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Contracts\bin\Release\Contracts.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Contracts\bin\Release\Contracts.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Contracts\obj\Release\Contracts.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Contracts\obj\Release\Contracts.pdb

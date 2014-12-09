@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>search</title>
+
+    <link href="search.css" rel="stylesheet" />
+    <script src="search.js"></script>
+</head>
+<body>
+    <div class="fragment search">
+
+        <!-- Header for the app -->
+        <section id="app-header"></section>
+        <!-- Header end-->
+
+        <!-- Body of the app -->
+        <section aria-label="Main content" role="main" class="searchContent">
+            <div class="column searchColumn1">
+                <form role="form" data-bind="with: searchForm">
+                    <label class="fullWidth">From <span class="required">*</span></label>
+                    <input type="text" data-bind="value: from, valueUpdate: 'afterkeydown'" />
+                    <label class="fullWidth">To <span class="required">*</span></label>
+                    <input type="text" data-bind="value: to, valueUpdate: 'afterkeydown'" />
+                    <label class="fullWidth">Date of Journey <span class="required">*</span></label>
+                    <div id="search-datepicker" data-win-control="WinJS.UI.DatePicker"></div>
+                    <button type="submit" data-bind="click: $parent.submitSearchFormData">Create</button>
+                </form>
+            </div>
+            <div class="column searchColumn2">
+                <!-- ko if: showProgressBar -->
+                <progress class="plan-progressbar win-medium"></progress>
+                <!-- /ko -->
+
+                <!-- ko if: hidePageContent && !showProgressBar() -->
+                <div class="no-data-available">
+                    <span>No Records Found!</span>
+                </div>
+                <!-- /ko -->
+
+                <!-- ko if: !hidePageContent() -->
+                <div>
+                    <table class="search-table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th class="shared-table-header" data-bind="text: 'From'"></th>
+                                <th class="shared-table-header" data-bind="text: 'To'"></th>
+                                <th class="shared-table-header" data-bind="text: 'Date of Travel'"></th>
+                                <th class="shared-table-header" data-bind="text: 'Fare'"></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind="foreach: planDataSource.data">
+                            <tr>
+                                <td class="calign">
+                                    <a class="expander" data-bind="click: $parent.onExpand, css:{ 'collapser': IsExpanded }" href="javascript:void(0)"></a>
+                                </td>
+                                <td data-bind="text: Travel.Source"></td>
+                                <td data-bind="text: Travel.Destination"></td>
+                                <td data-bind="text: new Date(new Date(Travel.TravelDateTime).toLocaleString() + ' UTC').toLocaleString()"></td>
+                                <td data-bind="text: Travel.TotalFare"></td>
+                                <td class="calign">
+                                    <!-- ko if: IsCreator -->
+                                    <button type="button" data-bind="text: 'Cannot join', disable: true"></button>
+                                    <!-- /ko -->
+                                    <!-- ko ifnot: IsCreator -->
+                                    <!-- ko if: IsFollower -->
+                                    <button type="button" data-bind="text: 'Joined', disable: true"></button>
+                                    <!-- /ko -->
+                                    <!-- ko ifnot: IsFollower -->
+                                    <button type="button" data-bind="text: ButtonText, click: $parent.joinTravelPlan, disable: ButtonText() === 'Joined'"></button>
+                                    <!-- /ko -->
+                                    <!-- /ko -->
+                                </td>
+                            </tr>
+                            <tr data-bind="visible: IsExpanded">
+                                <td></td>
+                                <td colspan="5">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th class="shared-table-header" data-bind="text: 'UserId'"></th>
+                                                <th class="shared-table-header" data-bind="text: 'Name'"></th>
+                                                <th class="shared-table-header" data-bind="text: 'EmailAddress'"></th>
+                                                <th class="shared-table-header" data-bind="text: 'ContactNumber'"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td data-bind="text: User.UserId"></td>
+                                                <td data-bind="text: User.Name"></td>
+                                                <td data-bind="text: User.EmailAddress"></td>
+                                                <td data-bind="text: User.ContactNumber"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /ko -->
+            </div>
+        </section>
+    </div>
+</body>
+</html>

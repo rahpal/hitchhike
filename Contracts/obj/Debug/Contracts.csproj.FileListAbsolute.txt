@@ -1,0 +1,5 @@
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Contracts\bin\Debug\Contracts.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Contracts\bin\Debug\Contracts.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Contracts\obj\Debug\Contracts.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Contracts\obj\Debug\Contracts.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache

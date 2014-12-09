@@ -1,0 +1,5 @@
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\AngularApp\AngularApp\bin\AngularApp.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\AngularApp\AngularApp\bin\AngularApp.pdb
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\AngularApp\AngularApp\obj\Debug\AngularApp.csprojResolveAssemblyReference.cache
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\AngularApp\AngularApp\obj\Debug\AngularApp.dll
+E:\App Development\Projects\Hitchhike\Main\Source\Hitchhike\Database\AngularApp\AngularApp\obj\Debug\AngularApp.pdb

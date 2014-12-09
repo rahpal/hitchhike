@@ -1,0 +1,122 @@
+﻿/*  Site level css styles */
+
+body {
+    font-family: "Segoe UI" !important;
+    background-color: #44accf;
+}
+
+.clearfix {
+    clear: both;
+}
+
+label {
+    font-size: 15pt;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.font-semibold {
+    font-weight: 400;
+}
+
+.page-header {
+    font-size: 42pt;
+}
+
+.validationError,
+.failuremessage {
+    color: #e81123;
+}
+
+.successmessage {
+    color: #1A8A00;
+}
+
+.fleft {
+    float: left;
+}
+
+.cursorpointer {
+    cursor: pointer;
+}
+
+progress.withText
+{
+    color: inherit; /* Uses the same text color as the page */
+    vertical-align: text-bottom; /* Makes the bottom of the control align with the bottom of its label */
+}
+
+/* Text style for a label for the progress ring */
+.progressRingText
+{
+    font-family: "Segoe UI";
+}
+
+/* Text style for a label for a default size progress ring */
+.progressRingText
+{
+    font-size: 11pt;
+    line-height: 15pt;
+}
+
+/* The margin to separate the ring and its label */
+.progressRingText progress
+{
+    margin-right: 5px;
+}
+
+.fright {
+    float: right;
+}
+
+.textellipsis {
+    text-overflow: ellipsis;
+}
+
+.fullWidth {
+    width: 100%;
+    display: block;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.ralign {
+    text-align: right;
+}
+
+.calign {
+    text-align: center;
+}
+
+.lalign {
+    text-align: left;
+}
+
+.shared-table-header {
+    font-size: 14pt;
+    font-family: "Segoe UI Light", "Segoe UI SemiLight";
+}
+
+.expander {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../../images/expand.png') no-repeat center;
+    cursor: pointer;
+}
+
+.collapser {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../../images/collapse.png') no-repeat center;
+    cursor: pointer;
+}
